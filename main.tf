@@ -15,7 +15,7 @@ variable "it" {
   
 }
 
-variable "subnet" {
+variable "subnetid" {
   #default = "t2.micro"
   
 }
@@ -23,6 +23,6 @@ variable "subnet" {
 resource "aws_instance" "Ec2module" {
     ami = var.ami_value
     instance_type = var.it
-    subnet_id = var.subnet
+    subnet_id = var.subnetid
    
 }
