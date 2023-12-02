@@ -5,7 +5,7 @@ provider "aws" {
   
 }
 
-variable "ami_value" {
+/*variable "ami_value" {
   #default = "ami-053b0d53c279acc90"
   
 }
@@ -18,7 +18,7 @@ variable "it" {
 variable "subnetid_value" {
   #default = "t2.micro"
   
-}
+}*/
 
 resource "aws_instance" "Ec2module" {
     ami = var.ami_value
