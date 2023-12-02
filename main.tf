@@ -23,6 +23,6 @@ variable "subnetid_value" {
 resource "aws_instance" "Ec2module" {
     ami = var.ami_value
     instance_type = var.it
-    subnet_id = var.subnetid_value
+    subnet_id = "subnet-0af2bf188043eef8a"
    
 }
