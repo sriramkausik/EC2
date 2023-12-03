@@ -17,5 +17,5 @@ variable "subnet_id_value" {
 resource "aws_instance" "example" {
     ami = var.ami_value
     instance_type = var.instance_type_value
-    subnet_id = subnet-047d768fb21db7bb
+    subnet_id = subnet-0aab0a5e16287ebdb
 }
